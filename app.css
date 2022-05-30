@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0a0a0b;
+  color: #aeaeaf;
+
+  font-family: "Inter", sans-serif;
+}
+.navbar {
+  margin: 1.3rem 9.125rem 0 9.125rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 1.3rem 0 1.3rem;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #aeaeaf;
+}
+.button {
+  color: #0a0a0b;
+  padding: 1rem 2rem;
+  background-color: #fbe850;
+  text-decoration: none;
+  font-family: "Prata", serif;
+  display: block;
+}
+.logo {
+  font-family: "Prata", serif;
+}
+.main-paragraph {
+  margin: 4.5rem 9.125rem 0 9.125rem;
+  width: 42.25rem;
+}
+.main-heading {
+  width: 43rem;
+  font-family: "Prata", serif;
+  font-size: 3.5rem;
+  color: #ffffff;
+  line-height: 5rem;
+}
+.sub-heading {
+  line-height: 2rem;
+}
+.company-logos {
+  margin: 6rem 9.125rem;
+}
+.special {
+  display: flex;
+  justify-content: space-between;
+}
+.special li {
+  display: inline-block;
+}
+.personal-projects {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 9.125rem;
+}
+.project-two {
+  margin-left: 2rem;
+}
+.head-project-one,
+.head-project-two {
+  font-size: 2.3rem;
+  text-decoration: none;
+  color: #aeaeaf;
+  display: inline-block;
+  font-family: "Prata", serif;
+  margin: 1rem 0;
+}
+.project-one-paragraph,
+.project-two-paragraph {
+  width: 95%;
+  line-height: 1.5rem;
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e3038;
+  margin: 4rem 0 0rem 0;
+  height: 21.875rem;
+}
+.heading-text {
+  margin-left: 9.125rem;
+  width: 90%;
+}
+.description {
+  margin-right: 9.125rem;
+  margin-left: 4.2rem;
+  width: 90%;
+}
+.company-text {
+  font-family: "Prata", serif;
+  font-size: 2.3rem;
+  color: #fff;
+  line-height: 2.5rem;
+}
+.text p {
+  padding: 1rem 0;
+  width: 90%;
+  line-height: 1.5rem;
+}
+
+.contact-system {
+  margin: 0 9.125rem;
+  height: 15rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-section {
+  width: 100%;
+  height: 100%;
+}
+.left-section-head {
+  font-family: "Prata", serif;
+  color: #fff;
+  font-size: 1.7rem;
+}
+.contact-system p {
+  padding: 1rem 0;
+  line-height: 1.4rem;
+}
+.second {
+  width: 30%;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e3038;
+  height: 4rem;
+}
+footer ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 1rem;
+}
+.name-text {
+  margin-left: 9.125rem;
+  font-family: "Prata", serif;
+}
+footer ul {
+  margin-right: 9.125rem;
+}
